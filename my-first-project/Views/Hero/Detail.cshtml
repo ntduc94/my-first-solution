@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+<p>From Title: @ViewData["FromTitle"]</p>
+<p>Current Time: @ViewData["CurrentTime"]</p>
+<p>Selected Hero: @ViewData["SelectedHero"]</p>
+<p>Selected Hero name: @ViewBag.Hero.Name</p>
+<p>Selected Hero power: @ViewBag.Hero.Power</p>
+
+<div>@Html.Partial("Menu")</div>
+
